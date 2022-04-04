@@ -1,14 +1,17 @@
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { GlobalStyle } from "./styles/GlobalStyle";
 
-
-function App() {
+const App = () =>{
   return (
+  <>
+  <GlobalStyle/>
     <div>
     <Header/>
      <p>Hello</p>
      <Footer/>
     </div>
+  </>
   );
 }
 

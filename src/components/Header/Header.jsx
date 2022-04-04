@@ -1,8 +1,13 @@
+import * as Style from './Header.style';
+
+
+
+
 const Header = () => {
   return (
-    <div>
+    <Style.Wrapper>
       <h1>React Saga</h1>
-    </div>
+    </Style.Wrapper>
   )
 }
 
