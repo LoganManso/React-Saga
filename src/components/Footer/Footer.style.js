@@ -7,5 +7,3 @@ color: white;
 align-items: center;
 text-align: center;
 `;
-
-
